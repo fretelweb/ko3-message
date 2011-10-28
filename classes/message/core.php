@@ -19,10 +19,10 @@ class Message_Core
 	/**
 	 * Constants to use for the types of messages that can be set.
 	 */
-	const ERROR = 'error';
-	const NOTICE = 'notice';
-	const SUCCESS = 'success';
-	const WARN = 'warn';
+	const ERROR = 'alert alert-danger';// 'error';
+	const NOTICE = 'alert alert-notify';//notice';
+	const SUCCESS ='alert alert-success';// 'success';
+	const WARN = 'alert alert-warning'; // 'warn';
 
 	/**
 	 * @var  mixed    The message to display.
