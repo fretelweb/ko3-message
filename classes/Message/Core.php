@@ -69,6 +69,8 @@ class Message_Core {
       if ($msg) {
          if ($view === null) {
             $view = self::$default;
+         }else{
+            $view = 'message/'.$view;
          }
 
          self::clear();
